@@ -23,5 +23,6 @@ There are some special selenium setup to get it to run headless chrome and FF:
 - https://www.exratione.com/2013/12/angularjs-headless-end-to-end-testing-with-protractor-and-selenium/
 
 Building and testing the Dockerfile:
+
     docker build -t temp-protractor .
     docker run --privileged -t -i temp-protractor ./testSelenium.sh
